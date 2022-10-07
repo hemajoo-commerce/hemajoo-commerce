@@ -1,13 +1,11 @@
-name: Artifact deployment
+name: Deployment
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
 
 jobs:
-
-  deploy:
-
+  Deploy:
     name: Deploy Maven Artifacts (by @${{ github.actor }})
     runs-on: ubuntu-latest
     permissions:
@@ -51,6 +49,10 @@ jobs:
             },
             {
                 "id": "github.hemajoo.maven.registry",
+                "username": "${{ secrets.DEPLOY_REGISTRY_USER }}",
+                "password": "${{ secrets.DEPLOY_REGISTRY_TOKEN }}"
+            },                       {
+                "id": "github.hemajoo-commerce.maven.registry",
                 "username": "${{ secrets.DEPLOY_REGISTRY_USER }}",
                 "password": "${{ secrets.DEPLOY_REGISTRY_TOKEN }}"
             }]
