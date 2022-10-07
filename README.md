@@ -1,13 +1,8 @@
-# Hemajoo Library
+# Hemajoo Commerce Library
 
 ## Description
 
-The `Hemajoo Library` project aims to provide low-level entities and features via several modules:
-
-- `hemajoo-commons`
-- `hemajoo-utilities`
-- `hemajoo-i18n`
-
+The `Hemajoo Commerce Library` project aims to provide a set of modules (library) to help and ease development of Commerce related projects.
 
 ## Status
 
@@ -19,47 +14,62 @@ The `Hemajoo Library` project aims to provide low-level entities and features vi
 | `Metrics`  | [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=com.hemajoo%3Ahemajoo-parent&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=com.hemajoo%3Ahemajoo-parent) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=com.hemajoo%3Ahemajoo-parent&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=com.hemajoo%3Ahemajoo-parent)                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | `Coverage` | [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.hemajoo%3Ahemajoo-parent&metric=coverage)](https://sonarcloud.io/summary/new_code?id=com.hemajoo%3Ahemajoo-parent)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
+## Composition
+
+The project is a **Maven** multi-modules project containing the following released modules:
+
+- `commerce-commons`
+- `commerce-utilities`
+- `commerce-jpa`
+
+and the following modules which are not released:
+
+- `hemajoo-commerce`
+- `commerce-coverage`
+
+
+
 ## Architecture
 
-### See: [Hemajoo Document microservice - Architecture](./doc/architecture.md)
+### See: [Hemajoo Commerce - Architecture](./doc/architecture.md)
 
 
 ## Infrastructure
 
-### See: [Hemajoo Document microservice - Infrastructure](./doc/infrastructure.md)
+### See: [Hemajoo Commerce - Infrastructure](./doc/infrastructure.md)
 
 
 ## DevOps
 
-### See: [Hemajoo Document microservice - DevOps](./doc/devops.md)
+### See: [Hemajoo Commerce - DevOps](./doc/devops.md)
 
 
 ## REST endpoints
 
-### See: [Hemajoo Document microservice - REST](./doc/rest.md)
+### See: [Hemajoo Commerce - REST](./doc/rest.md)
 
 
 ## Release History
 
-### See: [Hemajoo Document microservice - Release History](./doc/release_history.md)
+### See: [Hemajoo Commerce - Release History](./doc/release_history.md)
 
 
 ## Documentation
 
-### See: [Hemajoo Document microservice - Documentation](./doc/documentation.md)
+### See: [Hemajoo Commerce - Documentation](./doc/documentation.md)
 
 
 ## Processes
 
-### See: [Hemajoo Document microservice - Processes](./doc/processes.md)
+### See: [Hemajoo Commerce - Processes](./doc/processes.md)
 
 
 ## Notes
 
-### See: [Hemajoo Document microservice - Notes](./doc/notes.md)
+### See: [Hemajoo Commerce - Notes](./doc/notes.md)
 
 
-## Links
+## Useful Links
 
-### See: [Hemajoo Document microservice - Links](./doc/links.md)
+### See: [Hemajoo Commerce - Links](./doc/links.md)
 
